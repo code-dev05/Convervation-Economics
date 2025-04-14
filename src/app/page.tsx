@@ -1,7 +1,6 @@
 "use client";
 
 import Card from "@/components/card";
-import Footer from "@/components/footer";
 
 import { courses } from "@/utils/course";
 
@@ -25,7 +24,6 @@ export default function Home() {
           <CourseCards />
         </div>
       </div>
-      <Footer />
     </div>
   );
 }
